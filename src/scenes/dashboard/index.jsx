@@ -8,10 +8,10 @@ import PersonAddIcon from "@mui/icons-material/PersonAdd";
 import TrafficIcon from "@mui/icons-material/Traffic";
 import Header from "../../components/Header";
 import LineChart from "../../components/LineChart";
-import GeographyChart from "../../components/GeographyChart";
+import GeographyChart from "../../components/Geography";
 import BarChart from "../../components/BarChart";
-import StatBox from "../../components/StatBox";
-import ProgressCircle from "../../components/ProgressCircle";
+import StatBox from "../../components/StatusBox";
+import ProgressCircle from "../../components/LoadCircle";
 
 const Dashboard = () => {
   const theme = useTheme();
